@@ -10,3 +10,5 @@ function setThisWithCall(fn, thisValue, arg) {
 function setThisWithApply(fn, thisValue, ourArguments) {
   return fn.apply(thisValue, ourArguments);
 }
+
+
